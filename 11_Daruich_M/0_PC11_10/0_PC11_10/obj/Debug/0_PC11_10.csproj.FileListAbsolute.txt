@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\11_Daruich_Pinto\11_Daruich_M\0_PC11_10\0_PC11_10\bin\Debug\0_PC11_10.exe.config
+C:\Users\alumno.ET37\Desktop\11_Daruich_Pinto\11_Daruich_M\0_PC11_10\0_PC11_10\bin\Debug\0_PC11_10.exe
+C:\Users\alumno.ET37\Desktop\11_Daruich_Pinto\11_Daruich_M\0_PC11_10\0_PC11_10\bin\Debug\0_PC11_10.pdb
+C:\Users\alumno.ET37\Desktop\11_Daruich_Pinto\11_Daruich_M\0_PC11_10\0_PC11_10\obj\Debug\0_PC11_10.exe
+C:\Users\alumno.ET37\Desktop\11_Daruich_Pinto\11_Daruich_M\0_PC11_10\0_PC11_10\obj\Debug\0_PC11_10.pdb
