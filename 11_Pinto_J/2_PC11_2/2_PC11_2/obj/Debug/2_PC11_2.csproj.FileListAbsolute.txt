@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\carpeta\2_PC11_2\2_PC11_2\bin\Debug\2_PC11_2.exe.config
+C:\Users\alumno.ET37\Desktop\carpeta\2_PC11_2\2_PC11_2\bin\Debug\2_PC11_2.exe
+C:\Users\alumno.ET37\Desktop\carpeta\2_PC11_2\2_PC11_2\bin\Debug\2_PC11_2.pdb
+C:\Users\alumno.ET37\Desktop\carpeta\2_PC11_2\2_PC11_2\obj\Debug\2_PC11_2.exe
+C:\Users\alumno.ET37\Desktop\carpeta\2_PC11_2\2_PC11_2\obj\Debug\2_PC11_2.pdb
