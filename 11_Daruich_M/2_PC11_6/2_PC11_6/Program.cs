@@ -28,9 +28,8 @@ namespace _2_PC11_6
                 {
                     Console.WriteLine(puntajes[conta]);
                 }
-                Console.ReadKey();
                 }
-
+                 Console.ReadKey();
 
 
             }
