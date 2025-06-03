@@ -26,7 +26,7 @@ namespace _2_PC11_4
             int[] precios = new int[Productos];
             for (int conta = 0; conta < Productos; conta++)
             {
-                Console.WriteLine("indique el precio del producto " + conta);
+                Console.WriteLine("indique el precio del producto " + (conta+1));
                 precios[conta] = int.Parse(Console.ReadLine());
 
             }
