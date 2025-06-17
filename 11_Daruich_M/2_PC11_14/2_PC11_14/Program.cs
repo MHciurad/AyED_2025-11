@@ -20,6 +20,13 @@ namespace _2_PC11_14
             {
                 Pochidex[i, columnaALlenar] = (i + 1).ToString();
             }
+            Pochidex[0, 0] = "fila";
+            Pochidex[0, 1] = "nombre";
+            Pochidex[0, 2] = "nivel";
+            Pochidex[0, 3] = "tipo";
+            Pochidex[0, 4] = "estado";
+            Pochidex[0, 5] = "investigador asignado";
+
 
             while (op != 9)
             {
