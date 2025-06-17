@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +11,7 @@ namespace _2_PC11_14
         static void Main(string[] args)
         {
             string[,] Pochidex = new string[75, 6];
+            string OP2;
             int op, OP, z2, z1, colen, colen2, colen3;
             z1 = 0;
             z2 = 0;
@@ -20,7 +21,7 @@ namespace _2_PC11_14
             colen3 = 4;
             for (int i = 0; i < 75; i++)
             {
-                Pochidex[i, colen] = 0.ToString();
+                Pochidex[i, colen] = (i + 1).ToString();
             }
             for (int i = 0; i < 75; i++)
             {
@@ -69,14 +70,10 @@ namespace _2_PC11_14
                         break;
 
                     case 2:
-                        for (int r = 0; r < 75; r++)
-                        {
-                            for (int c = 0; c < 6; c++)
-                            {
-                                Console.Write($"[{Pochidex[r, c],-5}]");
-                            }
-                            Console.WriteLine();
-                        }
+                        Console.WriteLine("que entrada desea alterar?");
+                        OP = int.Parse(Console.ReadLine());
+                        Console.WriteLine("introduzca el numero de empleado del investigador a cargo");
+                        Pochidex[OP, 5] = Console.ReadLine();
                         break;
 
                     case 3:
@@ -86,7 +83,40 @@ namespace _2_PC11_14
                         Pochidex[OP, 3] = Console.ReadLine();
                         break;
                     case 4:
+                        Console.WriteLine("que entrada desea alterar?");
+                        OP = int.Parse(Console.ReadLine());
+                        Console.WriteLine("si el pochimon esta en investigacion ponga 1");
+                        Console.WriteLine("si ya ha sido investigado, ponga 2");
+                        Pochidex[OP, 4] = Console.ReadLine();
+                        break;
+                    case 5:
+                        for (int r = 0; r < 75; r++)
+                        {
+                            for (int c = 0; c < 6; c++)
+                            {
+                                Console.Write($"[{Pochidex[r, c],-5}]");
+                            }
+                            Console.WriteLine();
+                        }
+                        break;
+                    case 6:
+                        Console.WriteLine("Pör cual tipo quiere buscar");
+                        OP2 = Console.ReadLine();
+                        for (int i = 0; i < 75; i++)
+                        {
+                            if (Pochidex[i, 3] == OP2)
+                            {
+                                for (int r = 0; r < 75; r++)
+                                {
+                                    for (int c = 0; c < 6; c++)
+                                    {
+                                        Console.Write($"[{Pochidex[r, c],-5}]");
+                                    }
+                                    Console.WriteLine();
+                                }
 
+                            }
+                        }
                         break;
                     case 9:
                         Console.WriteLine("gracias, vuelva pronto");
@@ -99,15 +129,6 @@ namespace _2_PC11_14
             }
 
 
-                /*else if (op > 9)
-                {
-                    Console.WriteLine("invalida, intente otra vez");
-                    Console.ReadKey();
-                }
-                else
-                {
-                    Console.WriteLine("gracias, hasta pronto");
-                    Console.ReadKey();*/
 
                 }
             
