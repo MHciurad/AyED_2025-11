@@ -10,40 +10,65 @@ namespace _2_PC11_9
     {
         static void Main(string[] args)
         {
-            /*
-          * 
-          * TP 8 - ETAPA 2
-          * 
-          * 
-          * 
-          * */
-            int fila, columna;
-
-            Console.WriteLine("ingrese tamaño de fila");
-            fila = int.Parse(Console.ReadLine());
-            Console.WriteLine("ingrese tamaño de columna");
-            columna = int.Parse(Console.ReadLine());
+                /*
+         * 
+         * TP 11 - ETAPA 2
+         * 
+         * 
+         * 
+         * */
+            int n;
+            Console.WriteLine("Ingrese tamaño de la matriz (n x n):");
+            n = int.Parse(Console.ReadLine());
+            
             Random rand = new Random();
-
-            int[,] mimatriz = new int[fila, columna];
-
-            for (int f = 0; f < fila; f++)
+            
+            int[,] mimatriz = new int[n, n];
+            
+            for (int f = 0; f < n; f++)
             {
-
-                for (int c = 0; c < columna; c++)
+                for (int c = 0; c < n; c++)
                 {
                     int numeroAleatorio = rand.Next(1, 100);
                     mimatriz[f, c] = numeroAleatorio;
-
+                    
                 }
+                
             }
-            for (int f = 0; f < fila; f++)
+            
+            Console.WriteLine("------------- Matriz normal -------------");
+            for (int f = 0; f < n; f++)
             {
-                for (int c = 0; c < columna; c++)
+                for (int c = 0; c < n; c++)
                 {
                     Console.Write(mimatriz[f, c] + "\t");
+                    
                 }
                 Console.WriteLine();
+                
+            }
+            int[,] matrizRotada = new int[n, n];
+            
+            for (int f = 0; f < n; f++)
+            {
+                for (int c = 0; c < n; c++)
+                {
+                    matrizRotada[c, n - 1 - f] = mimatriz[f, c];
+                    
+                }
+                
+            }
+            
+            Console.WriteLine("---------- Matriz rotada 90° ----------");
+            for (int f = 0; f < n; f++)
+            {
+                for (int c = 0; c < n; c++)
+                {
+                    Console.Write(matrizRotada[f, c] + "\t");
+                    
+                }
+                Console.WriteLine();
+                
             }
             Console.ReadKey();
         }
