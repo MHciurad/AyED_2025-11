@@ -30,36 +30,38 @@ namespace _2_PC11_0
              
              */
 
-            int tamaño;
-            int cantcomida;
-            float comida;
-            float comidatotal;
+            int cantinvitados;
 
-            comida = 0;
+Console.WriteLine("Ingrese cantidad invitados");
+cantinvitados = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("ingrese la cantidad de invitados a la fiesta");
-            tamaño = int.Parse(Console.ReadLine());
+int[]invitados = new int[cantinvitados];
 
-            int[]CantInvitados = new int[tamaño];
-            for (int i = CantInvitados.Count() - 1; i >= 0; i--)
-            {
-                Console.WriteLine("ingrese la cantidad de comida por invitado");
-                cantcomida = int.Parse(Console.ReadLine());
-                if (cantcomida<0 || cantcomida>100)
-                {
-                    Console.WriteLine("error");
-                    Console.ReadKey();
-                }
-                else
-                {
-                    comida = comida + cantcomida;
-                }
+for (int i = 0; i < cantinvitados; i++)
+{
+    bool condic = false;
+    while (condic == false)
+    {
+        Console.WriteLine("ingrese la cantidad de comida para el invitado " + (i+1) + "(puede ser entre 1 y 100)");
+        int comida;
+        comida = int.Parse(Console.ReadLine());
+        if (comida >= 1 && comida <= 100)
+        {
+            condic = true;
+        }
+        invitados[i] = comida;
+    }
+}
 
-            }
-            comidatotal = comida / tamaño;
+int promedio = 0;
+for (int i = 0; i < cantinvitados; i++)
+{
+    promedio += invitados[i];
+}
 
-            Console.Write("la comida promedio que ingiere cada invitado es de: " + comidatotal + " comidas");
-            Console.ReadKey();
+Console.WriteLine("El promedio por invitado es: " + (promedio / cantinvitados));
+
+Console.ReadKey();
         }
     }
 }
