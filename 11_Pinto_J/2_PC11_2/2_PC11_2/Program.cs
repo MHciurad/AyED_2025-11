@@ -13,43 +13,70 @@ namespace _2_PC11_2
             /*
               TP 2 - etapa 2
              */
+            int canttp, cantex, tpsaprobados;
+double promedioex, examtotal, tp75;
+bool condi1, condi2;
 
-            int CantTPS;
-            int CantExam;
-            int promedioex;
-            int promediotp;
+condi1 = false;
+condi2 = false;
 
-            promedioex = 0;
-            promediotp = 0;
+tpsaprobados = 0;
+examtotal = 0;
+promedioex = 0;
 
-            Console.WriteLine("Ingrese la cantidad de Tps");
+Console.WriteLine("Ingrese la cantidad de Tps");
+canttp = int.Parse(Console.ReadLine());
+int[] tps = new int[canttp];
 
-            CantTPS = int.Parse(Console.ReadLine());
-            int[] tps = new int[CantTPS];
-
-            Console.WriteLine("Ingrese la cantidad de examenes");
-
-            CantExam = int.Parse(Console.ReadLine());
-            int[] exams = new int[CantExam];
+Console.WriteLine("Ingrese la cantidad de examenes");
+cantex = int.Parse(Console.ReadLine());
+int[] exams = new int[cantex];
 
 
-            for (int conta = 1; conta < CantTPS; conta++)
-            {
-                tps[conta] = int.Parse(Console.ReadLine());
-                Console.WriteLine("la nota del tp: " + conta + " es " + tps[conta]);
-            }
+/* -------------------------TPS--------------------------- */
+tp75 = canttp * 0.75;
+for (int i = 0; i < canttp; i++)
+{
+    Console.WriteLine("Ingrese la nota del tp " + (i + 1));
+    tps[i] = int.Parse(Console.ReadLine());
+    if (tps[i] >= 6)
+    {
+        tpsaprobados = tpsaprobados + 1;
+    }
+}
 
-            for (int conta2 = 1; conta2 <= CantTPS; conta2++)
-            {
-                exams[conta2] = int.Parse(Console.ReadLine());
-                Console.WriteLine("la nota del tp: " + conta2 + " es " + exams[conta2]);
+if (tpsaprobados >= tp75)
+{
+    condi1 = true;
+}
 
-                promedioex = (promedioex + exams[conta2]) / CantExam;
-            }
+/*-------------------------EXAMENES--------------------------- */
 
-            Console.WriteLine("el promedio de las notas de los examenes es: " + promedioex);
+for (int i = 0; i < cantex; i++)
+{
+    Console.WriteLine("Ingrese la nota del examen " + (i + 1));
+    exams[i] = int.Parse(Console.ReadLine());
+    examtotal = examtotal + exams[i];
+}
 
-            Console.ReadKey();
+promedioex = examtotal / cantex;
+
+if (promedioex >= 6)
+{
+    condi2 = true;
+}
+/*------------------------FINAL--------------------------- */
+
+if (condi1 == true && condi2 == true)
+{
+    Console.WriteLine("Phineas y Ferb aprobaron la materia");
+}
+else
+{
+    Console.WriteLine("Phineas y Ferb no aprobaron la materia");
+}
+
+Console.ReadKey();
         }
     }
 }
