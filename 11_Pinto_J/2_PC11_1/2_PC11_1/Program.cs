@@ -11,54 +11,56 @@ namespace _2_PC11_1
         static void Main(string[] args)
         {
             /*
-             Tp 1 - Etapa 2
-             
-             El Rayo McQueen está compitiendo en una carrera de alta velocidad. Necesita un programa en C# que le ayude a registrar los tiempos de cada vuelta y calcular algunas estadísticas importantes. 
-             El programa debe cumplir el siguiente orden:
-             Permitir al Rayo McQueen ingresar los tiempos de cada vuelta de la carrera en segundos. Utiliza un array para almacenar estos tiempos.
-             Calcular y mostrar en pantalla el tiempo total de la carrera.
-             Calcular y mostrar en pantalla el promedio de tiempo por vuelta.
-             Determinar y mostrar en pantalla cuál fue la mejor vuelta, es decir, la vuelta con el menor tiempo registrado.
-             El programa debe permitir al usuario ingresar la cantidad de vueltas que completó Rayo McQueen y luego ingresar los tiempos de cada vuelta. Al finalizar, mostrará las estadísticas calculadas.
-             (Opcional: los tiempos se pueden ingresar automáticamente con un for y un Random... recordar nombreRandom.Next(10, 500) ).
-             
-             */
 
-            int CantVueltas;
-            int tiempototal;
-            int mejortiempo;
-            int promedio;
+TP 1 - Etapa 2
 
-            mejortiempo = 500;
-            tiempototal = 0;
+*/
 
-            Console.WriteLine("Ingrese la cantidad de vueltas");
+int cantvueltas, tiempototal, mejortiempo, promedio, mejorvueltanum;
 
-            CantVueltas = int.Parse(Console.ReadLine());
-            int[] tiempos = new int[CantVueltas];
+mejortiempo = 501;
+tiempototal = 0;
+mejorvueltanum = 1;
 
-            Random tiempo = new Random();
 
-            for (int conta = 0; conta <= CantVueltas; conta++)
-            {
-                tiempos[conta] = tiempo.Next(10, 500);
-                Console.WriteLine("el tiempo de la vuelta Nro: " + conta + ", es de: " + tiempos[conta] + " segundos");
+Console.WriteLine("Ingrese la cantidad de vueltas");
 
-                tiempototal = tiempototal + tiempos[conta];
+cantvueltas = int.Parse(Console.ReadLine());
+int[] tiempos = new int[cantvueltas];
 
-                if (tiempos[conta] < mejortiempo)
-                {
-                    mejortiempo = tiempos[conta];
-                }
-            }
+Random tiempo = new Random();
 
-            promedio = tiempototal / CantVueltas;
+for (int i = 0; i < cantvueltas; i++)
+{
+    tiempos[i] = tiempo.Next(10, 500);
+    tiempototal = tiempototal + tiempos[i];
 
-            Console.WriteLine("El mejor tiempo realizado por el Rayo McQueen es de: " + mejortiempo);
-            Console.WriteLine("El tiempo promedio es de: " + promedio);
-            Console.WriteLine("el tiempo total es de: " + tiempototal);
+}
+promedio = tiempototal / cantvueltas;
 
-            Console.ReadKey();
+
+Console.WriteLine("El tiempo total de la carrera fue: " + tiempototal + " segundos");
+Console.WriteLine("El promedio de tiempo por vuelta fue: " + promedio + " segundos");
+
+for (int i = 0; i < cantvueltas; i++)
+{
+    if (tiempos[i] < mejortiempo)
+    {
+        mejortiempo = tiempos[i];
+        mejorvueltanum = i + 1;
+    }
+}
+
+Console.WriteLine("La vuelta con mejor tiempo fue la vuelta: " + mejorvueltanum + " con " + mejortiempo + " segundos" );
+
+
+Console.WriteLine("Lista de vueltas");
+
+for (int i = 0; i < cantvueltas; i++)
+{
+    Console.WriteLine("la vuelta numero: " + (i + 1) + " tuvo un tiempo de " + tiempos[i] + " segundos");
+}
+Console.ReadKey();
         }
     }
 }
