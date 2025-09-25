@@ -1,0 +1,14 @@
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\bin\Debug\net8.0\3_PC11_7.exe
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\bin\Debug\net8.0\3_PC11_7.deps.json
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\bin\Debug\net8.0\3_PC11_7.runtimeconfig.json
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\bin\Debug\net8.0\3_PC11_7.dll
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\bin\Debug\net8.0\3_PC11_7.pdb
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.AssemblyInfoInputs.cache
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.AssemblyInfo.cs
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.csproj.CoreCompileInputs.cache
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.dll
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\refint\3_PC11_7.dll
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.pdb
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\3_PC11_7.genruntimeconfig.cache
+C:\Users\manueld204\Desktop\AyED_2025-11-main\11_Daruich_M\3_PC11_7\3_PC11_7\obj\Debug\net8.0\ref\3_PC11_7.dll
