@@ -1,0 +1,14 @@
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\bin\Debug\net8.0\3_PC11_4_4Lite.exe
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\bin\Debug\net8.0\3_PC11_4_4Lite.deps.json
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\bin\Debug\net8.0\3_PC11_4_4Lite.runtimeconfig.json
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\bin\Debug\net8.0\3_PC11_4_4Lite.dll
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\bin\Debug\net8.0\3_PC11_4_4Lite.pdb
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.AssemblyInfoInputs.cache
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.AssemblyInfo.cs
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.csproj.CoreCompileInputs.cache
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.dll
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\refint\3_PC11_4_4Lite.dll
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.pdb
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\3_PC11_4_4Lite.genruntimeconfig.cache
+C:\Users\leone\Documents\C# TPS\3_PC11_4_4Lite\obj\Debug\net8.0\ref\3_PC11_4_4Lite.dll
