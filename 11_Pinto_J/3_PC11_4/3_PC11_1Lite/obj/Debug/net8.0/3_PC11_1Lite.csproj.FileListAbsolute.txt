@@ -1,0 +1,14 @@
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\bin\Debug\net8.0\3_PC11_1Lite.exe
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\bin\Debug\net8.0\3_PC11_1Lite.deps.json
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\bin\Debug\net8.0\3_PC11_1Lite.runtimeconfig.json
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\bin\Debug\net8.0\3_PC11_1Lite.dll
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\bin\Debug\net8.0\3_PC11_1Lite.pdb
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.AssemblyInfoInputs.cache
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.AssemblyInfo.cs
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.csproj.CoreCompileInputs.cache
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.dll
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\refint\3_PC11_1Lite.dll
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.pdb
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\3_PC11_1Lite.genruntimeconfig.cache
+C:\Users\leone\Documents\C# TPS\3_PC11_1Lite\obj\Debug\net8.0\ref\3_PC11_1Lite.dll
